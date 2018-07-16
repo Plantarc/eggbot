@@ -70,7 +70,10 @@ var WOD = [
     "Todays word of the day is FabledFish!",
     "Todays word of the day is Baseball",
     "Todays word of the day is Baseball Discord",
-    "Todays word of the day is TypicalLlamaJoey"
+    "Todays word of the day is TypicalLlamaJoey",
+    "Todays word of the day is FlabledFash",
+    "Todays word of the day is PufflePlanet",
+    "Todays word of the day is the egg council"
 ];
 
 var eggrating = [
@@ -106,7 +109,8 @@ var job = [
     "Egg lawyer",
     "Egg",
     "Homeless egg",
-    "Shrek"
+    "Shrek",
+    "Egg council member"
 ];
 
 var whodidit = [
@@ -176,6 +180,8 @@ var whodidit = [
     "Egglando",
     "Club Penguin Adidas",
     "Club Penguin De-Evolved"
+    "The egg council",
+    "Zeyh"
 ];
 
 var aprilfools = [
