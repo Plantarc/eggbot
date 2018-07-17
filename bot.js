@@ -179,7 +179,7 @@ var whodidit = [
     "The person who first said rawr xD",
     "Egglando",
     "Club Penguin Adidas",
-    "Club Penguin De-Evolved"
+    "Club Penguin De-Evolved",
     "The egg council",
     "Zeyh"
 ];
