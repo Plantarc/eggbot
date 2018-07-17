@@ -651,7 +651,8 @@ client.on("message", function(message) {
               .addField("```- 8.  Only use commands such as !slut in #mature```", " ￼ ")
               .addField("```- 9.  Swearing is allowed in #memes```", " ￼ ")
               .addField("```- 10. Post invites only in #advertisment```", " ￼ ")
-              .addField("```- 11. Staff can decide any punishment they see fit.  If you think a punishment is unfair dm the owner @Playermode#8623```", " ￼ ")
+              .addField("```- 11. No spamming```", " ￼ ")
+              .addField("```- 12. Staff can decide any punishment they see fit.  If you think a punishment is unfair dm the owner @Playermode#8623```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430404036160651284/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
               .setColor(003366)
           message.channel.sendEmbed(rulesegg);
