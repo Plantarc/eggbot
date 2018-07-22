@@ -410,12 +410,12 @@ client.on("message", function(message) {
 }  
     
   if (message.content === "drew") {
-    const drew4554 = client.emojis.get("452932328893710336");                                 
+    const drew4554 = client.emojis.get("470407881016082433");                                 
     message.react("452932328893710336");
 }     
     
   if (message.content === "Drew") {
-    const drew24343 = client.emojis.get("452932328893710336");                                 
+    const drew24343 = client.emojis.get("470407881016082433");                                 
     message.react("452932328893710336");
 }     
 
