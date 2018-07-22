@@ -1056,20 +1056,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === "drew") {
-    	message.reply("https://cdn.discordapp.com/attachments/386610342077267968/439956799102124043/dec7441d6185cbbe563620a3ddccccdf.png");
-        message.react("452932328893710336");
-    }    
-});
-
-client.on('message', message => {
-    if (message.content === "Drew") {
-    	message.reply("https://cdn.discordapp.com/attachments/386610342077267968/439956799102124043/dec7441d6185cbbe563620a3ddccccdf.png");
-        message.react("452932328893710336");       
-    }    
-});
-
-client.on('message', message => {
     if (message.content === "Hi") {
     	message.reply('Hello there');
     }    
