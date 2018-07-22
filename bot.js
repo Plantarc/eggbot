@@ -414,7 +414,7 @@ client.on("message", function(message) {
     message.react("452932328893710336");
 }     
     
-  if (message.content === "Drew") {
+  if (message.content === "Drewr334rfeferfersd") {
     const drew24343 = client.emojis.get("470407881016082433");                                 
     message.react("452932328893710336");
 }     
