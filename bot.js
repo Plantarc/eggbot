@@ -411,12 +411,12 @@ client.on("message", function(message) {
     
   if (message.content === "drew") {
     const drew4554 = client.emojis.get("470407881016082433");                                 
-    message.react("452932328893710336");
+    message.react("470407881016082433");
 }     
     
-  if (message.content === "Drewr334rfeferfersd") {
+  if (message.content === "Drew") {
     const drew24343 = client.emojis.get("470407881016082433");                                 
-    message.react("452932328893710336");
+    message.react("470407881016082433");
 }     
 
   if (!message.content.startsWith(PREFIX)) return;
