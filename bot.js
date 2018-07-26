@@ -417,7 +417,12 @@ client.on("message", function(message) {
   if (message.content === "Drew") {
     const drew24343 = client.emojis.get("470407881016082433");                                 
     message.react("470407881016082433");
-}     
+}    
+
+  if (message.content === "epic") {
+    const drew24343 = client.emojis.get("439195134173642752");                                 
+    message.react("439195134173642752");
+}       
 
   if (!message.content.startsWith(PREFIX)) return;
 
