@@ -930,7 +930,10 @@ client.on("message", function(message) {
              .addField("- There will be at least one egg thing to egg yourself with each day. (Such as a giveaway or whatever staff decide)", " ￼ ")
              .addField("- Its time to egg yourself with eggtivites", " ￼ ")
          message.channel.sendEmbed(daysofegg);
-         break;           
+         break;   
+    case "pollegger":
+      message.channel.sendMessage("***Should the egg council be disbanded? -???***")
+    break;          
   }
 });
 
