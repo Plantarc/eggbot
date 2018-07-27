@@ -464,7 +464,7 @@ client.on("message", function(message) {
     break;
     case "badegg":
         var badegg = new Discord.RichEmbed()
-            .setImage("https://m.popkey.co/ab00d3/v0zRG.gif")
+            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/472268474543243274/badegg.gif")
         message.channel.sendEmbed(badegg);
         break;
     case "lundab":
