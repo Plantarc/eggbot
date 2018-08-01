@@ -422,7 +422,12 @@ client.on("message", function(message) {
   if (message.content === "epic") {
     const drew24343 = client.emojis.get("439195134173642752");                                 
     message.react("439195134173642752");
-}       
+}     
+
+  if (message.content === "not epic") {
+    const drew24343 = client.emojis.get("472271704136089602");                                 
+    message.react("472271704136089602");
+}     
 
   if (!message.content.startsWith(PREFIX)) return;
 
@@ -1084,6 +1089,12 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === "muffin") {
     	message.reply('ah nou');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "STOP") {
+    	message.reply('ah im not up for stopping right now how about another time?');
     }    
 });
 
