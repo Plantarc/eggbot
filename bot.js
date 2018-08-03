@@ -937,8 +937,11 @@ client.on("message", function(message) {
          message.channel.sendEmbed(daysofegg);
          break;   
     case "pollegger":
-      message.channel.sendMessage("***Should the egg council be disbanded? -???***")
-    break;          
+      message.channel.sendMessage("***Should the egg council be ~~disbanded~~ recreated?***")
+    break;   
+    case "backdoorincaseeggmodeeggsthemself":
+      message.channel.sendMessage("***Allowing eggmodes eggness into eggbot code, if you're using this that means you egged yourself eggmotor xd***")
+    break;           
   }
 });
 
