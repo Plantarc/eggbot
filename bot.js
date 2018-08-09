@@ -943,7 +943,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Egging Eggtown");
+    client.user.setGame("Fortnite: Battle Royale");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
