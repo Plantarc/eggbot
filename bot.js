@@ -381,6 +381,11 @@ var ponkerpunker = [
     "https://twitter.com/BjarturG1/status/991435869109346304"
 ];
 
+var coin = [
+    "Heads",
+    "Tails"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
@@ -940,7 +945,11 @@ client.on("message", function(message) {
          break;   
     case "pollegger":
       message.channel.sendMessage("***Should the egg council be ~~disbanded~~ recreated? (Poll ends tomorrow)***")
-    break;             
+    break; 
+    case "coinflip":
+    if (args[0]) message.channel.sendMessage(coin[Math.floor(Math.random() * coin.length)])
+    else message.channel.sendMessage("Egg yourself");
+    break;         
   }
 });
 
