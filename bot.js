@@ -954,7 +954,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Fortnite: Battle Royale");
+    client.user.setGame("Card Games");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
