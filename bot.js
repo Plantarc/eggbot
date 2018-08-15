@@ -181,7 +181,10 @@ var whodidit = [
     "Club Penguin Adidas",
     "Club Penguin De-Evolved",
     "The egg council",
-    "Zeyh"
+    "Zeyh",
+    "Sidious",
+    "Matt555666",
+    "nice555666"
 ];
 
 var aprilfools = [
