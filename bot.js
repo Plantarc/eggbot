@@ -1112,5 +1112,11 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "no u") {
+    	message.reply('https://www.youtube.com/watch?v=uBbwZCRIILM');
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
