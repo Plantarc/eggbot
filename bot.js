@@ -826,14 +826,14 @@ client.on("message", function(message) {
              .setAuthor("Playermode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0x00AE86)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
-             .setImage("https://i.imgur.com/Fi8hjHC.png")
+             .setImage("https://cdn.discordapp.com/attachments/430414146924969984/481137495602495496/eggtownelectionsicon.png")
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
-             .addField("- Tomorrow is the start of the Eggtown Elections", " ￼ ")
-             .addField("- This event will be held between 6/15/18 to 6/18/18", " ￼ ")
-             .addField("- To enter the elections dm Playermode#8623", " ￼ ")
-             .addField("- If you're mod you can enter to become an admin, if you're not staff you can enter to become a mod <:okeggelections:439195075050733580>", " ￼ ")
-             .addField("- 2 new mods will be chosen and 1 new admin will be chosen.  If anyone ties both people will get the role. <:egg2:424370317243187200>", " ￼ ")         
+             .addField("- Today is the start of the 3rd Eggtown Elections", " ￼ ")
+             .addField("- This event will be held between 8/20/18-8/22/18", " ￼ ")
+             .addField("- To vote go to #481132183583588412", " ￼ ")
+             .addField("- You can only vote for one admin and one mod.  If you are running you can not vote for yourself. <:okeggelections:481134825869148160>", " ￼ ")
+             .addField("- 2 new mods will be chosen and 2 new admins will win.  If anyone ties both people will get the role. <:egg2:424370317243187200>", " ￼ ")         
          message.channel.sendEmbed(electionsnews1);
          break;
     case "electionsimage": 
