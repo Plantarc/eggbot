@@ -843,51 +843,51 @@ client.on("message", function(message) {
          break;
     case "elect1": 
          var elect1 = new Discord.RichEmbed()
-             .setTitle("JoseTheJbot")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321444783816706/3e64526ab26c9b04325a2209595dc765.png")
-             .addField("React with ☑ to vote for JoseTheJbot.  They're running for Admin.", " ￼ ")
+             .setTitle("PufflePlanet")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131232307183637/7861c63497281b812a4baa41d74d25f3.png")
+             .addField("React with ☑ to vote for PufflePlanet.  They're running for Admin.", " ￼ ")
          message.channel.sendEmbed(elect1);
          break; 
     case "elect2": 
          var elect2 = new Discord.RichEmbed()
-             .setTitle("Pengkip")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321425938939904/7b1decfdbdaa6a39406b1d7544cda33a.png")
-             .addField("React with ☑ to vote for Pengkip.  They're running for Admin.", " ￼ ")
+             .setTitle("Guyscience")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131199243354123/7022c64be27653c165546548e274fc89.png")
+             .addField("React with ☑ to vote for Guyscience.  They're running for Admin.", " ￼ ")
          message.channel.sendEmbed(elect2);
          break; 
     case "elect3": 
          var elect3 = new Discord.RichEmbed()
-             .setTitle("Ouattack")
-             .setImage("https://media.discordapp.net/attachments/457304041983311872/457321297064493089/63eed8d6bf4571549c7822ba0a774bd6.png")
-             .addField("React with ☑ to vote for Ouattack.  They're running for Admin.", " ￼ ")
+             .setTitle("Vert")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131169027719168/d2552c773f58d5dcf4744b7571aa3e31.png")
+             .addField("React with ☑ to vote for Vert.  They're running for Admin.", " ￼ ")
          message.channel.sendEmbed(elect3);
          break; 
     case "elect4": 
          var elect4 = new Discord.RichEmbed()
-             .setTitle("TypicalLlamaJoey")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321264558637077/07291f74b7c452924d595d7c908e0a06.png")
-             .addField("React with ☑ to vote for TypicalLlamaJoey.  They're running for Mod.", " ￼ ")
+             .setTitle("Horsii")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131288355405845/e909d1c02f4c88b55cc688f38f7c7e40.png")
+             .addField("React with ☑ to vote for Horsii.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect4);
          break;
     case "elect5": 
          var elect5 = new Discord.RichEmbed()
              .setTitle("Drew")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321188444864523/8975d5537862b3445c05610fafa3839d.png")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131386850377738/dc898ac124a21d4f1087c4bfdf44d927.png")
              .addField("React with ☑ to vote for Drew.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect5);
          break; 
     case "elect6": 
          var elect6 = new Discord.RichEmbed()
-             .setTitle("ChickenFriedKarma")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321348117692416/baa59188d82c5dff4d822bea61c23959.png")
-             .addField("React with ☑ to vote for ChickenFriedKarma.  They're running for Mod.", " ￼ ")
+             .setTitle("AndrewDoesStuff")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131361277837323/a83972d5170b755ba988e4692eb3256c.png")
+             .addField("React with ☑ to vote for AndrewDoesStuff.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect6);
          break; 
     case "elect7": 
          var elect7 = new Discord.RichEmbed()
-             .setTitle("PlanetPuffle")
-             .setImage("https://cdn.discordapp.com/attachments/457304041983311872/457321372801302529/718c17b989d4ec933e3739da921c11fc.png")
-             .addField("React with ☑ to vote for PlanetPuffle.  They're running for Mod.", " ￼ ")
+             .setTitle("Garnet1200")
+             .setImage("https://cdn.discordapp.com/attachments/479104109421527041/481131321448595457/e2142d21cac8f03d12596b2921448dd1.png")
+             .addField("React with ☑ to vote for Garnet1200.  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect7);
          break;  
     case "elect8": 
