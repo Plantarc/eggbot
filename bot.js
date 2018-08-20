@@ -831,7 +831,7 @@ client.on("message", function(message) {
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- Today is the start of the 3rd Eggtown Elections", " ￼ ")
              .addField("- This event will be held between 8/20/18-8/22/18", " ￼ ")
-             .addField("- To vote go to #481132183583588412", " ￼ ")
+             .addField("- To vote go to #elections", " ￼ ")
              .addField("- You can only vote for one admin and one mod.  If you are running you can not vote for yourself. <:okeggelections:481134825869148160>", " ￼ ")
              .addField("- 2 new mods will be chosen and 2 new admins will win.  If anyone ties both people will get the role. <:egg2:424370317243187200>", " ￼ ")         
          message.channel.sendEmbed(electionsnews1);
