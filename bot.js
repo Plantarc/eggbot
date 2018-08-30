@@ -952,12 +952,17 @@ client.on("message", function(message) {
     case "coinflip":
     if (args[0]) message.channel.sendMessage(coin[Math.floor(Math.random() * coin.length)])
     else message.channel.sendMessage("Egg yourself");
-    break;         
+    break;  
+    case "f":   
+         var f = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/484822129133617155/88b6bb46-e965-4743-98bc-74198dc8f871.png")
+         message.channel.sendEmbed(f);
+         break;          
   }
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Eggcraft");
+    client.user.setGame("The great emu war");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
