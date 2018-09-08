@@ -477,7 +477,7 @@ client.on("message", function(message) {
     break;
     case "badegg":
         var badegg = new Discord.RichEmbed()
-            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/472268474543243274/badegg.gif")
+            .setImage("https://i.imgur.com/zsVYYwk.gif")
         message.channel.sendEmbed(badegg);
         break;
     case "lundab":
