@@ -962,7 +962,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("The great emu war");
+    client.user.setGame("Eggy Peggy");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
