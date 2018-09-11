@@ -957,7 +957,12 @@ client.on("message", function(message) {
          var f = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/484822129133617155/88b6bb46-e965-4743-98bc-74198dc8f871.png")
          message.channel.sendEmbed(f);
-         break;          
+         break;  
+    case "can":
+         var can = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/488904676327161867/886A99AC44170632B97B47C35A61A18F8E3D10F6.png")
+         message.channel.sendEmbed(can);
+         break;    
   }
 });
 
