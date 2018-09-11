@@ -623,9 +623,6 @@ client.on("message", function(message) {
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430814711622270978/66a8c63b867d4b58895f9048df4d0a0e.png")                
           message.channel.sendEmbed(info);
           break;
-    case "can":
-      message.channel.sendMessage("u dont")
-      break;
     case "question":
       if (args[1]) message.channel.sendMessage(aprilfools[Math.floor(Math.random() * aprilfools.length)])
       else message.channel.sendMessage("Please ask an actual question. eggs deeeeeeeeeeeee");
