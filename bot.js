@@ -960,11 +960,14 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/488904676327161867/886A99AC44170632B97B47C35A61A18F8E3D10F6.png")
          message.channel.sendEmbed(can);
          break;    
+    case "crab":
+         message.channel.sendMessage("https://www.youtube.com/watch?v=2afeAXxzZa4")
+         break;            
   }
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Eggy Peggy");
+    client.user.setGame("the crab rave");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
