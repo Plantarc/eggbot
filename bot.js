@@ -1017,7 +1017,7 @@ client.on("message", function(message) {
          break;
     case "eggboteggoweennews":
          var eggoweenbotnews1 = new Discord.RichEmbed()
-             .setTitle("📰**News**📰")
+             .setTitle("📰**Egg Bot News**📰")
              .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0xc91616)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
