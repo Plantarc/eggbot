@@ -1141,10 +1141,24 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === '!avatar') {
-    // Send the user's avatar URL
     message.reply(message.author.avatarURL);
   }
 });
+
+client.on('message', message => {
+    if (message.content === 'rip') {
+        const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
+        message.channel.send(attachment);
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'dead') {
+        const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
+        message.channel.send(attachment);
+    }
+});
+
 
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
