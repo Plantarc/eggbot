@@ -1010,7 +1010,7 @@ client.on("message", function(message) {
              .addField("- This event ends November 1st.", " ￼ ")
              .addField("- There will be spoopy occurences that will occur during this event.", " ￼ ")
              .addField("- New roles, giveaways and activities will come out during this event.", " ￼ ")
-             .addField("- New emotes have been added: <:pumpkinegg:506167639383605266 <:rip:506167652520296467> <:boo:506167619246620672>.", " ￼ ")         
+             .addField("- New emotes have been added: <:pumpkinegg:506167639383605266> <:rip:506167652520296467> <:boo:506167619246620672>.", " ￼ ")         
              .addField("- #information has gotten a spoopy makeover in #spoopyinfo.", " ￼ ")
              .addField("- Egg Bot has gotten some new additions which you can read in the news post below this one.", " ￼ ")
          message.channel.sendEmbed(eggoween1);
