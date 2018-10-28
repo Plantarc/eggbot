@@ -966,7 +966,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("the crab rave");
+    client.user.setGame("sp00ped out");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
