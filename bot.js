@@ -671,7 +671,7 @@ client.on("message", function(message) {
               .addField("```- 13. Don't play inappropriate music in the music voice channel.```", " ￼ ")
               .addField("```- 14. Staff can decide any punishment they see fit.  If you think a punishment is unfair dm the owner @Playermode#8623```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/386610342077267968/430404036160651284/backwards_walking_egg_by_genshihebi-d3da1ag.gif")
-              .setColor(990000)
+              .setColor(0xc91616)
           message.channel.sendEmbed(rulesegg);
           break;
     case "gabstory2": 
