@@ -1006,7 +1006,7 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/386701830098255883/506178587590656020/welcometospooptown.png")
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
-             .addField("- <:pumpkinegg:506167639383605266> Today is the start of the 101 days of egg <:pumpkinegg:506167639383605266>", " ￼ ")
+             .addField("- <:pumpkinegg:506167639383605266> Today is the start of Eggoween <:pumpkinegg:506167639383605266>", " ￼ ")
              .addField("- This event ends November 1st.", " ￼ ")
              .addField("- There will be spoopy occurences that will occur during this event.", " ￼ ")
              .addField("- New roles, giveaways and activities will come out during this event.", " ￼ ")
