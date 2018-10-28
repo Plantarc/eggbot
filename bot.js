@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
-
+const client = new Discord.Client();
 
 var fortunes = [
     "Yes",
@@ -1138,6 +1138,13 @@ client.on('message', message => {
     if (message.content === "Peridot") {
     	message.reply('https://imgur.com/Wmjb8Jb');
     }    
+});
+
+client.on('message', message => {
+  if (message.content === '!avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
 });
 
 //THIS BOT IS ONLY FOR EGGTOWN
