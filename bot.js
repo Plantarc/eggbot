@@ -427,14 +427,49 @@ client.on("message", function(message) {
 }    
 
   if (message.content === "epic") {
-    const drew24343 = client.emojis.get("439195134173642752");                                 
+    const drew24344334243 = client.emojis.get("439195134173642752");                                 
     message.react("439195134173642752");
 }     
 
   if (message.content === "not epic") {
-    const drew24343 = client.emojis.get("472271704136089602");                                 
+    const drew2423243343 = client.emojis.get("472271704136089602");                                 
     message.react("472271704136089602");
-}     
+} 
+    
+  if (message.content === "spoopy") {
+    const drew242424343 = client.emojis.get("506167619246620672");                                 
+    message.react("506167619246620672");
+}
+    
+  if (message.content === "Spoopy") {
+    const drew244224343 = client.emojis.get("506167619246620672");                                 
+    message.react("506167619246620672");
+}
+
+  if (message.content === "sp00py") {
+    const drew213244343 = client.emojis.get("506167619246620672");                                 
+    message.react("506167619246620672");
+}
+    
+  if (message.content === "boo") {
+    const drew22245454343 = client.emojis.get("506167619246620672");                                 
+    message.react("506167619246620672");
+}
+    
+  if (message.content === "trick or treat") {
+    const drew2654464343 = client.emojis.get("506167639383605266");                                 
+    message.react("506167639383605266");
+}
+
+  if (message.content === "Trick or Treat") {
+    const drew2654545454464343 = client.emojis.get("506167639383605266");                                 
+    message.react("506167639383605266");
+}
+    
+  if (message.content === "Trick Or Treat") {
+    const drew2654454554464343 = client.emojis.get("506167639383605266");                                 
+    message.react("506167639383605266");
+}    
 
   if (!message.content.startsWith(PREFIX)) return;
 
@@ -961,7 +996,40 @@ client.on("message", function(message) {
          break;    
     case "crab":
          message.channel.sendMessage("https://www.youtube.com/watch?v=2afeAXxzZa4")
-         break;            
+         break;
+    case "eggoweennews":
+         var eggoween1 = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://i.imgur.com/uSWQMFa.jpg")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- <:pumpkinegg:506167639383605266> Today is the start of the 101 days of egg <:pumpkinegg:506167639383605266>", " ￼ ")
+             .addField("- This event ends November 1st.", " ￼ ")
+             .addField("- There will be spoopy occurences that will occur during this event.", " ￼ ")
+             .addField("- New roles, giveaways and activities will come out during this event.", " ￼ ")
+             .addField("- New emotes have been added: <:pumpkinegg:506167639383605266 <:rip:506167652520296467> <:boo:506167619246620672>.", " ￼ ")         
+             .addField("- #information has gotten a spoopy makeover in <#386609475093528578>.", " ￼ ")
+             .addField("- Egg Bot has gotten some new additions which you can read in the news post below this one.", " ￼ ")
+         message.channel.sendEmbed(eggoween1);
+         break;
+    case "eggboteggoweennews":
+         var eggoweenbotnews1 = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://gyazo.com/46bcdd66d631b6e2e7459d9745015abb")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- We have gotten new eggbot changes!", " ￼ ")
+             .addField("- Eggbot will now reply or react to the following: rip, dead, spoopy, and trick or treat", " ￼ ")
+             .addField("- Egg Bot has a new profile picture for Eggoween.", " ￼ ")
+             .addField("- A new command has been added called !avatar, when you do !avatar Egg Bot will reply with your avatar.  You can see it being used in the gif below.", " ￼ ")
+         message.channel.sendEmbed(eggoweenbotnews1);
+         break;          
   }
 });
 
