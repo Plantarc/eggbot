@@ -1025,7 +1025,7 @@ client.on("message", function(message) {
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- We have gotten new eggbot changes!", " ￼ ")
-             .addField("- Eggbot will now reply or react to the following: rip, dead, spoopy, and trick or treat", " ￼ ")
+             .addField("- Egg Bot will now reply or react to the following: rip, dead, spoopy, and trick or treat", " ￼ ")
              .addField("- Egg Bot has a new profile picture for Eggoween.", " ￼ ")
              .addField("- A new command has been added called !avatar, when you do !avatar Egg Bot will reply with your avatar.  You can see it being used in the gif below.", " ￼ ")
          message.channel.sendEmbed(eggoweenbotnews1);
