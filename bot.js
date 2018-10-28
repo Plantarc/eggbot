@@ -1003,7 +1003,7 @@ client.on("message", function(message) {
              .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0xc91616)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
-             .setImage("https://i.imgur.com/uSWQMFa.jpg")
+             .setImage("i.imgur.com/uSWQMFa.jpg")
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- <:pumpkinegg:506167639383605266> Today is the start of the 101 days of egg <:pumpkinegg:506167639383605266>", " ￼ ")
@@ -1011,7 +1011,7 @@ client.on("message", function(message) {
              .addField("- There will be spoopy occurences that will occur during this event.", " ￼ ")
              .addField("- New roles, giveaways and activities will come out during this event.", " ￼ ")
              .addField("- New emotes have been added: <:pumpkinegg:506167639383605266 <:rip:506167652520296467> <:boo:506167619246620672>.", " ￼ ")         
-             .addField("- #information has gotten a spoopy makeover in <#386609475093528578>.", " ￼ ")
+             .addField("- #information has gotten a spoopy makeover in #spoopyinfo.", " ￼ ")
              .addField("- Egg Bot has gotten some new additions which you can read in the news post below this one.", " ￼ ")
          message.channel.sendEmbed(eggoween1);
          break;
@@ -1021,7 +1021,7 @@ client.on("message", function(message) {
              .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0xc91616)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
-             .setImage("https://gyazo.com/46bcdd66d631b6e2e7459d9745015abb")
+             .setImage("i.imgur.com/qlPMWrh.gif")
              .setTimestamp()
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("- We have gotten new eggbot changes!", " ￼ ")
