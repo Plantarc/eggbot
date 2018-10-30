@@ -72,7 +72,9 @@ var WOD = [
     "Todays word of the day is TypicalLlamaJoey",
     "Todays word of the day is FlabledFash",
     "Todays word of the day is PufflePlanet",
-    "Todays word of the day is the egg council"
+    "Todays word of the day is the egg council",
+    "Todays word of the day is Eggoween!",
+    "Todays word of the day is sp00p!"
 ];
 
 var eggrating = [
@@ -294,7 +296,9 @@ var when = [
     "In 40 years",
     "In 30 years",
     "In 900 years",
-    "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
+    "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png",
+    "Whenever Eggoween is",
+    "During the next Communism Day"
 ];
 
 var guysciencedms = [
