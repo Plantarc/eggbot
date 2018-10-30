@@ -1029,6 +1029,22 @@ client.on("message", function(message) {
              .addField("- Egg Bot has a new profile picture for Eggoween.", " ￼ ")
              .addField("- A new command has been added called !avatar, when you do !avatar Egg Bot will reply with your avatar.  You can see it being used in the gif below.", " ￼ ")
          message.channel.sendEmbed(eggoweenbotnews1);
+         break;
+    case "eggoweennewspart2":
+         var eggoweenpart2 = new Discord.RichEmbed()
+             .setTitle("📰**sp00p News**📰")
+             .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
+             .setColor(0x8B0000)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://cdn.discordapp.com/attachments/386701830098255883/506178587590656020/welcometospooptown.png")
+             .setTimestamp()
+             .setURL("https://www.youtube.com/watch?v=n_qbGJuxCYY")
+             .addField("- <:pumpkinegg:506167639383605266> Today is the last day of Eggoween <:pumpkinegg:506167639383605266>", " ￼ ")
+             .addField("- Shazamata is this months golden egg!  Make sure to congratulate them!", " ￼ ")
+             .addField("- The Eggtown Resistance urges you to stay alert for anymore 'Experiments' that seem to be involved with Bart Bot.", " ￼ ")
+             .addField("- There will be a few more giveaways before the end of Eggoween.", " ￼ ")
+             .addField("- Az is this months egg of the month!  Make sure to congratulate them!", " ￼ ")
+         message.channel.sendEmbed(eggoweenpart2);
          break;          
   }
 });
