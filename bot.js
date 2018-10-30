@@ -1036,7 +1036,7 @@ client.on("message", function(message) {
              .setAuthor("sp00pmode", "https://i.imgur.com/qtewCuV.png")
              .setColor(0x8B0000)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
-             .setImage("https://cdn.discordapp.com/attachments/386701830098255883/506178587590656020/welcometospooptown.png")
+             .setImage("https://media.discordapp.net/attachments/387405930230185984/506820638972051457/Eggofthemonthaz.png")
              .setTimestamp()
              .setURL("https://www.youtube.com/watch?v=n_qbGJuxCYY")
              .addField("- <:pumpkinegg:506167639383605266> Today is the last day of Eggoween <:pumpkinegg:506167639383605266>", " ￼ ")
