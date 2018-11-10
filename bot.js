@@ -1054,7 +1054,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Scaring the egg out of eggmode");
+    client.user.setGame("Egg or Egg");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
