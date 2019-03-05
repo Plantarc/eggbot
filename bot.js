@@ -1049,7 +1049,20 @@ client.on("message", function(message) {
              .addField("- There will be a few more giveaways before the end of Eggoween.", " ￼ ")
              .addField("- Az is this months egg of the month!  Make sure to congratulate them!", " ￼ ")
          message.channel.sendEmbed(eggoweenpart2);
-         break;          
+         break;
+    case "successful":
+         var RARS1 = new Discord.RichEmbed()
+             .setTitle("Eggtown Resistance Automatic Response System")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- Evaluation of current situation at Bad Egg HQ following event codename 'Restoration' it has been concluded that Bad Egg HQ and the area surrounding it is far too dangerous to be left alone.", " ￼ ")
+             .addField("- Bad Egg HQ and the surrounding area is set for termination on ||REDACTED||", " ￼ ")
+             .addField("- Location of ||REDACTED|| and ||REDACTED|| is still currently unknown and multiple searches are ongoing for their whereabouts.  Any information regarding the whereabouts of ||REDACTED|| and ||REDACTED|| is to be reported to the Egg Council immediately.", " ￼ ")
+             .addField("- All current travel in and out of Bad Egg HQ is to be suspended from this point on.", " ￼ ")
+         message.channel.sendEmbed(RARS1);
+         break;
   }
 });
 
