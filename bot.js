@@ -1063,6 +1063,20 @@ client.on("message", function(message) {
              .addField("- All current travel in and out of Bad Egg HQ is to be suspended from this point on.", " ￼ ")
          message.channel.sendEmbed(RARS1);
          break;
+    case "0alphawarhead":
+         var warhead0 = new Discord.RichEmbed()
+             .setTitle("Eggtown Resistance Automatic Response System")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- All Eggtown Resistance Operations in Bad Egg HQ and the surrounding area has now ceased.", " ￼ ")
+             .addField("- Travel to Bad Egg HQ is now strictly prohibited", " ￼ ")
+             .addField("- Location of ||REDACTED|| and ||REDACTED|| is still currently unknown and multiple searches are ongoing for their whereabouts.  Any information regarding the whereabouts of ||REDACTED|| and ||REDACTED|| is to be reported to the Egg Council immediately.", " ￼ ")
+             .addField("- UPDATE: ||REDACTED|| has been ||REDACTED||.  Resistance Unit ||REDACTED|| is to ||REDACTED||.", " ￼ ")
+             .addField("- Bad Egg HQ is set for termination on ||REDACTED||.", " ￼ ")
+         message.channel.sendEmbed(warhead0);
+         break; 
   }
 });
 
