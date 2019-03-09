@@ -1069,7 +1069,7 @@ client.on("message", function(message) {
              .setColor(0xc91616)
              .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
              .setTimestamp()
-             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .setURL("https://youtu.be/qK-ZrDej7AM")
              .addField("- All Eggtown Resistance Operations in Bad Egg HQ and the surrounding area has now ceased.", " ￼ ")
              .addField("- Travel to Bad Egg HQ is now strictly prohibited", " ￼ ")
              .addField("- Location of ||REDACTED|| and ||REDACTED|| is still currently unknown and multiple searches are ongoing for their whereabouts.  Any information regarding the whereabouts of ||REDACTED|| and ||REDACTED|| is to be reported to the Egg Council immediately.", " ￼ ")
