@@ -1099,7 +1099,7 @@ client.on("message", function(message) {
              .setTimestamp()
              .setURL("https://youtu.be/qK-ZrDej7AM")
              .addField("- Affirmative, warhead is now set to detonate in 5 minutes.", " ￼ ")
-             .addField("- Termination of Bad Egg HQ is now set for 9:20PM EST.", " ￼ ")
+             .addField("- Termination of Bad Egg HQ is now set for 9:35PM EST.", " ￼ ")
              .addField("- Any remaining units please evacuate.", " ￼ ")
          message.channel.sendEmbed(detonate);
          break;
