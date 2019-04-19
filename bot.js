@@ -1076,7 +1076,21 @@ client.on("message", function(message) {
              .addField("- UPDATE: ||REDACTED|| has been ||REDACTED||.  Resistance Unit ||REDACTED|| is to ||REDACTED||.", " ￼ ")
              .addField("- Bad Egg HQ is set for termination on ||REDACTED||.", " ￼ ")
          message.channel.sendEmbed(warhead0);
-         break; 
+         break;
+    case "autopoll245":
+         var autopoll245 = new Discord.RichEmbed()
+             .setTitle("Eggtown Resistance Automatic Response System")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/qK-ZrDej7AM")
+             .addField("- Unauthorized activity detected at Resistance terminal BEHQ-45A.", " ￼ ")
+             .addField("- Automated poll is now in effect.", " ￼ ")
+             .addField("- Should the warhead be detonated at Bad Egg HQ at this current moment?", " ￼ ")
+             .addField("- Yes (🇾) No (🇳)", " ￼ ")
+             .addField("- This automated poll will conclude in 1 hour.", " ￼ ")
+         message.channel.sendEmbed(autopoll245);
+         break;
   }
 });
 
