@@ -1103,6 +1103,17 @@ client.on("message", function(message) {
              .addField("- Any remaining units please evacuate.", " ￼ ")
          message.channel.sendEmbed(detonate);
          break;
+    case "detonationsuccess":
+         var detonate = new Discord.RichEmbed()
+             .setTitle("Eggtown Resistance Automatic Response System")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/qK-ZrDej7AM")
+             .addField("- Threat Neutralized.", " ￼ ")
+             .addField("- Bad Egg HQ has now successfully been terminated.", " ￼ ")
+         message.channel.sendEmbed(detonate);
+         break;
   }
 });
 
