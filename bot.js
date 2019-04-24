@@ -1114,6 +1114,18 @@ client.on("message", function(message) {
              .addField("- Bad Egg HQ has now successfully been terminated.", " ￼ ")
          message.channel.sendEmbed(detonate);
          break;
+    case "codered":
+         var codered = new Discord.RichEmbed()
+             .setTitle("Eggtown Resistance Automatic Response System")
+             .setColor(0xc91616)
+             .setFooter("© Eggtown", "https://cdn.discordapp.com/attachments/498897507317973012/552603646022647808/operationbadegghq.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/qK-ZrDej7AM")
+             .addField("- Scenario BETO-4 has been detected", " ￼ ")
+             .addField("- Protocol 0 has been initiated automatically", " ￼ ")
+             .addField("- Due to scenario BETO-4 The E.R.A.R.S has now logged off all resistance terminals outside of the main base", " ￼ ")
+         message.channel.sendEmbed(codered);
+         break;
   }
 });
 
