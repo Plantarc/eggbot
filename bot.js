@@ -1123,7 +1123,7 @@ client.on("message", function(message) {
              .setURL("https://youtu.be/qK-ZrDej7AM")
              .addField("- Scenario BETO-4 has been detected", " ￼ ")
              .addField("- Protocol 0 has been initiated automatically", " ￼ ")
-             .addField("- Due to scenario BETO-4 The E.R.A.R.S has now logged off all resistance terminals outside of the main base", " ￼ ")
+             .addField("- Due to scenario BETO-4 the E.R.A.R.S has now logged off all resistance terminals outside of the main base", " ￼ ")
          message.channel.sendEmbed(codered);
          break;
   }
