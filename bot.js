@@ -1322,20 +1322,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '.') {
-        const attachment = new Attachment('...?');
-        message.channel.send(attachment);
-    }
-});
-
-client.on('message', message => {
-    if (message.content === ',') {
-        const attachment = new Attachment('Who is comma? As well it would be wonderful to know who period is.');
-        message.channel.send(attachment);
-    }
-});
-
-client.on('message', message => {
     if (message.content === 'dead') {
         const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
         message.channel.send(attachment);
