@@ -1130,7 +1130,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Egg or Egg");
+    client.user.setGame("Eggtown has returned");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
