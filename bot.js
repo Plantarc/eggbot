@@ -1135,7 +1135,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Eggtown has returned");
+    client.user.setGame("Eggtown has returned on May 6 2018.");
     client.user.setUsername("Egg Bot");
     console.log('I am ready!');
 });
