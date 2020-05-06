@@ -1335,7 +1335,6 @@ client.on('message', message => {
     }
 });
 
-
 client.on('message', message => {
     if (message.content === 'dead') {
         const attachment = new Attachment('https://i.imgur.com/w3duR07.png');
