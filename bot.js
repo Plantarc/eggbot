@@ -185,7 +185,12 @@ var whodidit = [
     "Zeyh",
     "Sidious",
     "Matt555666",
-    "nice555666"
+    "nice555666",
+    "Squiderii",
+    "Winterii",
+    "Eggstone",
+    "Eggerii",
+    "SquidStone"
 ];
 
 var aprilfools = [
@@ -1315,6 +1320,21 @@ client.on('message', message => {
         message.channel.send(attachment);
     }
 });
+
+client.on('message', message => {
+    if (message.content === '.') {
+        const attachment = new Attachment('...?');
+        message.channel.send(attachment);
+    }
+});
+
+client.on('message', message => {
+    if (message.content === ',') {
+        const attachment = new Attachment('Who is comma? As well it would be wonderful to know who period is.');
+        message.channel.send(attachment);
+    }
+});
+
 
 client.on('message', message => {
     if (message.content === 'dead') {
