@@ -592,6 +592,12 @@ client.on("message", function(message) {
             .setImage("https://cdn.discordapp.com/attachments/343102240766296064/424566056368209921/egg32.gif")
         message.channel.sendEmbed(helicopter);
         break;
+    case "helicopter2":
+        var helicopter2 = new Discord.RichEmbed()
+            .setVideo("https://cdn.discordapp.com/attachments/303756866377220096/707669115200077914/Inquisitor_lightsaber.mp4")
+        message.channel.sendEmbed(helicopter);
+        break;
+
     case "ahyes":
         message.channel.sendMessage("Of course")
         break;
