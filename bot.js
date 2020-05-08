@@ -1026,6 +1026,11 @@ client.on("message", function(message) {
     case "crab":
          message.channel.sendMessage("https://www.youtube.com/watch?v=2afeAXxzZa4")
          break;
+    case "ztu":
+        var ztu = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/592129847216701440/708465737068707931/image0.png")
+        message.channel.sendEmbed(ztu);
+        break;
     case "eggoweennews":
          var eggoween1 = new Discord.RichEmbed()
              .setTitle("📰**News**📰")
