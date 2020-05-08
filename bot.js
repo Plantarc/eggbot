@@ -954,6 +954,20 @@ client.on("message", function(message) {
              .addField("React with ☑ to vote for Horsii (powneh).  They're running for Mod.", " ￼ ")
          message.channel.sendEmbed(elect10);
          break;          
+    case "elect11": 
+         var elect11 = new Discord.RichEmbed()
+             .setTitle("Frank Palpatine")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/708161745516232844/frank.png")
+             .addField("React with ☑ to vote for Frank Palpatine.  They're running for Supreme Chancellor.", "_ _")
+         message.channel.sendEmbed(elect11);
+         break;
+    case "elect12": 
+         var elect12 = new Discord.RichEmbed()
+             .setTitle("Gman")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/708161774855258112/gman.png")
+             .addField("React with ☑ to vote for Gman.  They're running for ||REDACTED||.", "_ _")
+         message.channel.sendEmbed(elect12);
+         break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
