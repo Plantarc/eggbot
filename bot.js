@@ -979,6 +979,11 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/386610342077267968/457730427420147733/coollogo_com-18835349.png")
          message.channel.sendEmbed(lun);
          break;
+    case "stare":   
+         var stare = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/592129847216701440/708486243083878420/stare.gif")
+         message.channel.sendEmbed(stare);
+         break;          
     case "lunrules":   
          var lunrules = new Discord.RichEmbed()
              .addField("1. Gab must be respected every hr", " ￼ ")
