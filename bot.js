@@ -111,7 +111,8 @@ var job = [
     "Egg",
     "Homeless egg",
     "Shrek",
-    "Egg council member"
+    "Egg council member",
+    "Eggy Muffin"
 ];
 
 var whodidit = [
@@ -302,8 +303,7 @@ var when = [
     "In 30 years",
     "In 900 years",
     "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png",
-    "Whenever Eggoween is",
-    "During the next Communism Day"
+    "Whenever Eggoween is"
 ];
 
 var guysciencedms = [
