@@ -83,7 +83,7 @@ var eggrating = [
     "3 seems as though you've been slacking in the egg department recently ://///",
     "4 I mean you're still an egg but could be better",
     "5 You're the everyday egg.  Not big or small or bad but just an egg",
-    "6 You're similar to the everyday egg but you still do better as an egg then them",
+    "6 You're similar to the everyday egg but you still do better as an egg than them",
     "7 Wowzar you've been doing some eggy things",
     "8 Congrats you're excelling in egg culture",
     "9 Good job!  You are being a big egg and doing very very well in egg culture",
