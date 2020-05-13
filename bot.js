@@ -116,7 +116,11 @@ var job = [
 ];
 
 var whodidit = [
-    "thekippinggamer",
+    "Gordon Freeman",
+    "Steve Downes",
+    "Grammarly does more than catch words, with Grammarly you can really good words, no, perfect words that make your writing sharp or explicit or excellent or distinctive smirk or Car oh see nay",
+    "George",
+    "https://cdn.discordapp.com/attachments/303756866377220096/689931847572258885/gorg.mp4",
     "the egg police",
     "scott cawthon",
     "lunarx",
