@@ -179,7 +179,6 @@ var whodidit = [
     "Club Penguin Rewritten",
     "Club Penguin Rewritten the video",
     "The person who first said rawr xD",
-    "Egglando",
     "Club Penguin Adidas",
     "Club Penguin De-Evolved",
     "The egg council",
