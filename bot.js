@@ -178,7 +178,6 @@ var whodidit = [
     "Flippr",
     "Club Penguin Rewritten",
     "Club Penguin Rewritten the video",
-    "Illustrious Lame",
     "The person who first said rawr xD",
     "Egglando",
     "Club Penguin Adidas",
