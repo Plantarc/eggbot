@@ -190,7 +190,8 @@ var whodidit = [
     "Winterii",
     "Eggstone",
     "Eggerii",
-    "SquidStone"
+    "SquidStone",
+    "Charlie"
 ];
 
 var aprilfools = [
