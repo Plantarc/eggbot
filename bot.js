@@ -1042,7 +1042,7 @@ client.on("message", function(message) {
          break;
     case "ztu":
         var ztu = new Discord.RichEmbed()
-            .setImage("https://cdn.discordapp.com/attachments/592129847216701440/708465737068707931/image0.png")
+            .setImage("https://cdn.discordapp.com/attachments/592129847216701440/711050671645917204/ztu.png")
         message.channel.sendEmbed(ztu);
         break;
     case "eggoweennews":
