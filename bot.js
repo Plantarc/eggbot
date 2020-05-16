@@ -191,7 +191,9 @@ var whodidit = [
     "Eggstone",
     "Eggerii",
     "SquidStone",
-    "Charlie"
+    "Charlie",
+    "Thorn",
+    "Joee"
 ];
 
 var aprilfools = [
@@ -970,6 +972,13 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/585131954001674243/708161774855258112/gman.png")
              .addField("React with ☑ to vote for Gman.  They're running for ||REDACTED||.", "_ _")
          message.channel.sendEmbed(elect12);
+         break;
+    case "elect13": 
+         var elect13 = new Discord.RichEmbed()
+             .setTitle("Thorn")
+             .setImage("https://cdn.discordapp.com/attachments/592129847216701440/711016456078491678/710328409858768896.png")
+             .addField("React with ☑ to vote for Thorn.  They're running for Dictator of CPR.", "_ _")
+         message.channel.sendEmbed(elect13);
          break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
