@@ -412,6 +412,31 @@ client.on("message", function(message) {
     message.react("439181054792695811");
 }
     
+  if (message.content === "winter") {
+    const goodegg = client.emojis.get("707768839831683112");  
+    message.react("707768839831683112");
+}
+
+  if (message.content === "Winter") {
+    const goodegg = client.emojis.get("707768839831683112");  
+    message.react("707768839831683112");
+}
+
+  if (message.content === "Squid") {
+    const goodegg = client.emojis.get("707768839831683112");  
+    message.react("707768839831683112");
+}
+
+  if (message.content === "squid") {
+    const goodegg = client.emojis.get("707768839831683112");  
+    message.react("707768839831683112");
+}
+
+  if (message.content === "STOP") {
+    const goodegg = client.emojis.get("707768839831683112");  
+    message.react("707768839831683112");
+}
+    
   if (message.content === "!george") {
     const goodegg = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
