@@ -482,7 +482,6 @@ client.on("message", function(message) {
     message.react("709877165268795423");
 }
 
-
   if (message.content === "@everyone") {
     const random245 = client.emojis.get("396057873697734669");                                 
     message.react("396057873697734669");
