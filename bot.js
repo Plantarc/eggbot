@@ -401,7 +401,7 @@ var coin = [
 
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
-  
+
   if (message.content === "listemojis") {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
     message.channel.send(emojiList);     
@@ -410,6 +410,26 @@ client.on("message", function(message) {
   if (message.content === "good") {
     const goodegg = client.emojis.get("439181054792695811");  
     message.react("439181054792695811");
+}
+    
+  if (message.content === "!george") {
+    const goodegg = client.emojis.get("711352954413645924");  
+    message.react("711352954413645924");
+}
+    
+  if (message.content === "george") {
+    const goodegg = client.emojis.get("711352954413645924");  
+    message.react("711352954413645924");
+}
+
+  if (message.content === "GEORGE") {
+    const goodegg = client.emojis.get("711352954413645924");  
+    message.react("711352954413645924");
+}
+    
+  if (message.content === "!George") {
+    const goodegg = client.emojis.get("711352954413645924");  
+    message.react("711352954413645924");
 }  
 
   if (message.content === "shut") {
