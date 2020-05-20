@@ -405,80 +405,90 @@ client.on("message", function(message) {
   if (message.content === "listemojis") {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
     message.channel.send(emojiList);     
-}  
+}
+
+  if (message.content === "!listemojis") {
+    const emojiList2 = message.guild.emojis.map(e=>e.toString()).join(" ");
+    message.channel.send(emojiList2);     
+}   
 
   if (message.content === "good") {
-    const goodegg = client.emojis.get("439181054792695811");  
+    const e16 = client.emojis.get("439181054792695811");  
     message.react("439181054792695811");
 }
     
   if (message.content === "winter") {
-    const goodegg = client.emojis.get("707768839831683112");  
+    const e15 = client.emojis.get("707768839831683112");  
     message.react("707768839831683112");
 }
 
   if (message.content === "Winter") {
-    const goodegg = client.emojis.get("707768839831683112");  
+    const e14 = client.emojis.get("707768839831683112");  
     message.react("707768839831683112");
 }
 
   if (message.content === "Squid") {
-    const goodegg = client.emojis.get("707768839831683112");  
+    const e13 = client.emojis.get("707768839831683112");  
     message.react("707768839831683112");
 }
 
   if (message.content === "squid") {
-    const goodegg = client.emojis.get("707768839831683112");  
+    const e12 = client.emojis.get("707768839831683112");  
     message.react("707768839831683112");
 }
 
   if (message.content === "STOP") {
-    const goodegg = client.emojis.get("707768839831683112");  
+    const e11 = client.emojis.get("707768839831683112");  
     message.react("707768839831683112");
 }
     
   if (message.content === "!george") {
-    const goodegg = client.emojis.get("711352954413645924");  
+    const e10 = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
 }
     
   if (message.content === "george") {
-    const goodegg = client.emojis.get("711352954413645924");  
+    const e9 = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
 }
 
   if (message.content === "GEORGE") {
-    const goodegg = client.emojis.get("711352954413645924");  
+    const e8 = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
 }
     
   if (message.content === "!George") {
-    const goodegg = client.emojis.get("711352954413645924");  
+    const e7 = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
-}  
+} 
+
+  if (message.content === "https://cdn.discordapp.com/attachments/303756866377220096/689931847572258885/gorg.mp4") {
+    const e6 = client.emojis.get("711352954413645924");  
+    message.react("711352954413645924");
+} 
 
   if (message.content === "shut") {
-    const goodegg = client.emojis.get("424609594233323522");  
+    const e5 = client.emojis.get("424609594233323522");  
     message.react("424609594233323522");
 }
     
   if (message.content === "!elect13") {
-    const goodegg = client.emojis.get("709877165268795423");  
+    const e4 = client.emojis.get("709877165268795423");  
     message.react("709877165268795423");
 }
 
   if (message.content === "elect13") {
-    const goodegg = client.emojis.get("709877165268795423");  
+    const e3 = client.emojis.get("709877165268795423");  
     message.react("709877165268795423");
 }
 
   if (message.content === "Thorn") {
-    const goodegg = client.emojis.get("709877165268795423");  
+    const e2 = client.emojis.get("709877165268795423");  
     message.react("709877165268795423");
 }
   
   if (message.content === "thorn") {
-    const goodegg = client.emojis.get("709877165268795423");  
+    const e1 = client.emojis.get("709877165268795423");  
     message.react("709877165268795423");
 }
 
