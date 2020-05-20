@@ -460,7 +460,33 @@ client.on("message", function(message) {
   if (message.content === "shut") {
     const goodegg = client.emojis.get("424609594233323522");  
     message.react("424609594233323522");
-}    
+}
+    
+  if (message.content === "!elect13") {
+    const goodegg = client.emojis.get("709877165268795423");  
+    message.react("709877165268795423");
+}
+
+  if (message.content === "elect13") {
+    const goodegg = client.emojis.get("709877165268795423");  
+    message.react("709877165268795423");
+}
+
+  if (message.content === "React with ☑️ to vote for Thorn.  They're running for Dictator of CPR.") {
+    const goodegg = client.emojis.get("709877165268795423");  
+    message.react("709877165268795423");
+}
+
+  if (message.content === "Thorn") {
+    const goodegg = client.emojis.get("709877165268795423");  
+    message.react("709877165268795423");
+}
+  
+  if (message.content === "thorn") {
+    const goodegg = client.emojis.get("709877165268795423");  
+    message.react("709877165268795423");
+}
+
 
   if (message.content === "@everyone") {
     const random245 = client.emojis.get("396057873697734669");                                 
