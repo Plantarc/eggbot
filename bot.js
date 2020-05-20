@@ -405,12 +405,7 @@ client.on("message", function(message) {
   if (message.content === "listemojis") {
     const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
     message.channel.send(emojiList);     
-}
-
-  if (message.content === "!listemojis") {
-    const emojiList2 = message.guild.emojis.map(e=>e.toString()).join(" ");
-    message.channel.send(emojiList2);     
-}   
+}  
 
   if (message.content === "good") {
     const e16 = client.emojis.get("439181054792695811");  
