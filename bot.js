@@ -693,6 +693,9 @@ client.on("message", function(message) {
     case "pingdingdong":
       message.channel.sendMessage(":pingman: @everyone")
       break;
+    case "olive":
+      message.channel.sendMessage("https://cdn.discordapp.com/attachments/414169672926232576/712468427264098375/video0.mp4")
+      break;
     case "partner":
          var partner = new Discord.RichEmbed()
             .setDescription("Join our partner: Pengkips Discord!")
