@@ -472,11 +472,6 @@ client.on("message", function(message) {
     message.react("709877165268795423");
 }
 
-  if (message.content === "React with ☑️ to vote for Thorn.  They're running for Dictator of CPR.") {
-    const goodegg = client.emojis.get("709877165268795423");  
-    message.react("709877165268795423");
-}
-
   if (message.content === "Thorn") {
     const goodegg = client.emojis.get("709877165268795423");  
     message.react("709877165268795423");
