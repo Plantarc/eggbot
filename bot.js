@@ -455,6 +455,36 @@ client.on("message", function(message) {
   if (message.content === "!George") {
     const e7 = client.emojis.get("711352954413645924");  
     message.react("711352954413645924");
+}
+
+  if (message.content === "oh") {
+    const oh = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
+} 
+
+  if (message.content === "Oh") {
+    const oh1 = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
+}
+
+  if (message.content === "OH) {
+    const oh2 = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
+}
+
+  if (message.content === "oh ok") {
+    const oh3 = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
+} 
+
+  if (message.content === "Oh ok") {
+    const oh4 = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
+} 
+
+  if (message.content === "Oh Ok") {
+    const oh5 = client.emojis.get("713271063953539125");  
+    message.react("713271063953539125");
 } 
 
   if (message.content === "https://cdn.discordapp.com/attachments/303756866377220096/689931847572258885/gorg.mp4") {
