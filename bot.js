@@ -1391,6 +1391,30 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "ah yes of") {
+    	message.reply('ah yes of ok');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "Ah yes of") {
+    	message.reply('Ah yes of ok');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "Ah Yes of") {
+    	message.reply('Ah Yes of ok');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "AH YES") {
+    	message.reply('AH YES OF OK');
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "muffin") {
     	message.reply('ah nou');
     }    
