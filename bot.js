@@ -1082,6 +1082,13 @@ client.on("message", function(message) {
              .setImage("https://cdn.discordapp.com/attachments/592129847216701440/711016456078491678/710328409858768896.png")
              .addField("React with ☑ to vote for Thorn.  They're running for Dictator of CPR.", "_ _")
          message.channel.sendEmbed(elect13);
+         break;   
+    case "elect14": 
+         var elect14 = new Discord.RichEmbed()
+             .setTitle("The Big Man from Brooklyn")
+             .setImage("https://cdn.discordapp.com/attachments/592129847216701440/713514394914652250/image0.png")
+             .addField("React with ☑ to vote for The Big Man from Brooklyn.  They're running for the voice of the people.", "_ _")
+         message.channel.sendEmbed(elect14);
          break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
