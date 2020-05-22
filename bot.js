@@ -467,7 +467,7 @@ client.on("message", function(message) {
     message.react("713271063953539125");
 }
 
-  if (message.content === "OH) {
+  if (message.content === "OH") {
     const oh2 = client.emojis.get("713271063953539125");  
     message.react("713271063953539125");
 }
