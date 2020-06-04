@@ -1094,14 +1094,14 @@ client.on("message", function(message) {
          var elect15 = new Discord.RichEmbed()
              .setTitle("Marselo")
              .setImage("https://cdn.discordapp.com/attachments/585131954001674243/717903710583521320/702567939198550207.png")
-             .addField("React with ☑ to vote for Marselo.  They're running for nothing actually. Why would you vote for Marselo.", "_ _")
+             .addField("React with ☑ to vote for Marselo.  They are running for nothing actually. Why would you vote for Marselo.", "_ _")
          message.channel.sendEmbed(elect15);
          break;
     case "elect16": 
          var elect16 = new Discord.RichEmbed()
              .setTitle("Joe Ligotti")
              .setImage("https://cdn.discordapp.com/attachments/585131954001674243/717907216950362112/image0.png")
-             .addField("React with ☑ to vote for  Joe Ligotti.  They're running for Congress. Oh and the balls to say it.", "_ _")
+             .addField("React with ☑ to vote for  Joe Ligotti.  They are running for Congress. Oh and the balls to say it.", "_ _")
          message.channel.sendEmbed(elect16);
          break;
     case "electionsinfo":
