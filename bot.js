@@ -1090,6 +1090,13 @@ client.on("message", function(message) {
              .addField("React with ☑ to vote for The Big Man from Brooklyn.  They're running for the voice of the people.", "_ _")
          message.channel.sendEmbed(elect14);
          break;
+    case "elect15": 
+         var elect15 = new Discord.RichEmbed()
+             .setTitle("Marselo")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/717903710583521320/702567939198550207.png")
+             .addField("React with ☑ to vote for Marselo.  They're running for nothing actually. Why would you vote for Marselo.", "_ _")
+         message.channel.sendEmbed(elect15);
+         break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
@@ -1102,13 +1109,6 @@ client.on("message", function(message) {
          var stare = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/592129847216701440/708486243083878420/stare.gif")
          message.channel.sendEmbed(stare);
-         break;
-    case "elect15": 
-         var elect15 = new Discord.RichEmbed()
-             .setTitle("Marselo")
-             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/717903710583521320/702567939198550207.png")
-             .addField("React with ☑ to vote for Marselo.  They are running for nothing actually. Why would you vote for Marselo.", "_ _")
-         message.channel.sendEmbed(elect15);
          break;
       case "lunrules":   
          var lunrules = new Discord.RichEmbed()
