@@ -1102,8 +1102,15 @@ client.on("message", function(message) {
          var stare = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/592129847216701440/708486243083878420/stare.gif")
          message.channel.sendEmbed(stare);
-         break;          
-    case "lunrules":   
+         break;
+    case "elect15": 
+         var elect15 = new Discord.RichEmbed()
+             .setTitle("Marselo")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/717903710583521320/702567939198550207.png")
+             .addField("React with ☑ to vote for Marselo.  They're running for nothing actually. Why would you vote for Marselo.", "_ _")
+         message.channel.sendEmbed(elect15);
+         break;
+      case "lunrules":   
          var lunrules = new Discord.RichEmbed()
              .addField("1. Gab must be respected every hr", " ￼ ")
              .addField("2. CHILDHOOD JOKES ONLY IN #mature 😤🙏", " ￼ ")
