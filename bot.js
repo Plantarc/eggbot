@@ -1104,6 +1104,13 @@ client.on("message", function(message) {
              .addField("React with ☑ to vote for  Joe Ligotti.  They are running for Congress. Oh and the balls to say it.", "_ _")
          message.channel.sendEmbed(elect16);
          break;
+    case "elect17": 
+         var elect17 = new Discord.RichEmbed()
+             .setTitle("Handsome Jack")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/719033754278035476/OIP.png")
+             .addField("React with ☑ to vote for  Handsome Jack.  They are running for innocent  sorcerer.", "_ _")
+         message.channel.sendEmbed(elect17);
+         break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
