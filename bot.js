@@ -1111,6 +1111,13 @@ client.on("message", function(message) {
              .addField("React with ☑ to vote for  Handsome Jack.  They are running for innocent  sorcerer.", "_ _")
          message.channel.sendEmbed(elect17);
          break;
+    case "elect18": 
+         var elect18 = new Discord.RichEmbed()
+             .setTitle("Blue4740")
+             .setImage("https://cdn.discordapp.com/attachments/585131954001674243/720363483065221170/o2PC4XuT_400x400.png")
+             .addField("React with ☑ to vote for  Blue4740.  They aren't running for anything actually, they're just running from the community.", "_ _")
+         message.channel.sendEmbed(elect18);
+         break;
     case "electionsinfo":
       message.channel.sendMessage("<:okeggelections:439195075050733580>Below are all the candits running for a staff posistion.  2 new mods will be elected and 1 new admin will be elected.<:okeggelections:439195075050733580>") 
          break; 
