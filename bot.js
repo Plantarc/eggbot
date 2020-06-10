@@ -1115,7 +1115,7 @@ client.on("message", function(message) {
          var elect18 = new Discord.RichEmbed()
              .setTitle("Blue4740")
              .setImage("https://cdn.discordapp.com/attachments/585131954001674243/720363483065221170/o2PC4XuT_400x400.png")
-             .addField("React with ☑ to vote for  Blue4740.  They aren't running for anything actually, they're just running from the community.", "_ _")
+             .addField("React with ☑ to vote for  Blue4740.  They aren't running for anything actually, they're just running from the community. (Waddle on!!!11111!!!)", "_ _")
          message.channel.sendEmbed(elect18);
          break;
     case "electionsinfo":
