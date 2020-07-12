@@ -1122,7 +1122,7 @@ client.on("message", function(message) {
          var elect19 = new Discord.RichEmbed()
              .setTitle("Raymond")
              .setImage("https://cdn.discordapp.com/attachments/585131954001674243/731970861204111540/image0.png")
-             .addField("React with ☑ to vote for  Raymond.  They are running for Mayor. Oh and dictator of the world :jawline:", "_ _")
+             .addField("React with ☑ to vote for Raymond. They are running for Mayor. Oh and dictator of the world :jawline:", "_ _")
          message.channel.sendEmbed(elect19);
          break;
     case "electionsinfo":
