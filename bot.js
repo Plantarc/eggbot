@@ -1397,6 +1397,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "OH") {
+    	message.reply("OK");
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "ah yes") {
     	message.reply("of course");
     }    
