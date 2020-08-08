@@ -1549,6 +1549,17 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if (message.content === "peridot") {
+    	message.reply('https://imgur.com/Wmjb8Jb');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "fuck you") {
+    	message.reply('Hey I have feelings too you know but alright 😔');
+    }    
+});
 
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
