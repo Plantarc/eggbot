@@ -1561,5 +1561,11 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "FUCK YOU") {
+    	message.reply('I know you hate me but theres no need to yell :jawline:');
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
