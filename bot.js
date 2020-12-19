@@ -1603,6 +1603,18 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "joe mama") {
+    	message.reply('NO NOT MY ONLY WEAKNESS');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "JOE MAMA") {
+    	message.reply('HOW DID THIS HAPPEN');
+    }    
+});
+
 https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png
 
 //THIS BOT IS ONLY FOR EGGTOWN
