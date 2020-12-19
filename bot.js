@@ -1555,5 +1555,41 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "yo") {
+    	message.reply('YO MAMA!!!!!!!!!!!');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "joe") {
+    	message.reply('joe mama');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "JOE") {
+    	message.reply('JOE WHO? JOE MAMA THATS WHO!!!');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "TAXES") {
+    	message.reply('I HATE THOSE');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "SAFA") {
+    	message.reply('THEY ARE NOW OFFICIALLY ABOLISHED. THEY ARE ILLEGAL.');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "taxes") {
+    	message.reply('yuck');
+    }    
+});
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
