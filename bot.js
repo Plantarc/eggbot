@@ -1591,5 +1591,19 @@ client.on('message', message => {
     }    
 });
 
+client.on('message', message => {
+    if (message.content === "SARB") {
+    	message.reply('they are alright i guess, they gave plantarc money that one time so theyre ok in my book i guess');
+    }    
+});
+
+client.on('message', message => {
+    if (message.content === "POOP") {
+    	message.reply('HOW https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png');
+    }    
+});
+
+https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png
+
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
