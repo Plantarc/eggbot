@@ -1622,7 +1622,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === "<:sus:804152600290263083>") {
+    if (message.content === "<:whenimposterisSUS:802988696521015306>") {
     	message.reply('https://cdn.discordapp.com/attachments/713077166929215629/804146928073703424/when_the_imposter_is_thick.mp4');
     }    
 });
