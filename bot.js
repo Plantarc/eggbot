@@ -1610,8 +1610,14 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "NO HAPPY") {
+    	message.reply('https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png');
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "joe mama") {
-    	message.reply('NO NOT MY ONLY WEAKNESS');
+    	message.reply('HOW');
     }    
 });
 
