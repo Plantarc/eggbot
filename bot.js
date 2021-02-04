@@ -1605,13 +1605,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "poop") {
-    	message.reply('HOW https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png');
+    	message.reply('HOW https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
     }    
 });
 
 client.on('message', message => {
     if (message.content === "NO HAPPY") {
-    	message.reply('https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png');
+    	message.reply('https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
     }    
 });
 
