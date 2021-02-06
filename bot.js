@@ -1633,7 +1633,11 @@ client.on('message', message => {
     }    
 });
 
-https://cdn.discordapp.com/attachments/313415730496274441/789708100969431060/funny.png
+client.on('message', message => {
+    if (message.content === "リ𝙹 ⍑ᔑ!¡!¡||") {
+    	message.reply('https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
+    }    
+});
 
 //THIS BOT IS ONLY FOR EGGTOWN
 client.login(process.env.BOT_TOKEN);
