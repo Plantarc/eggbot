@@ -1610,6 +1610,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === "Poop") {
+    	message.reply('HOW https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
+    }    
+});
+
+client.on('message', message => {
     if (message.content === "NO HAPPY") {
     	message.reply('https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
     }    
