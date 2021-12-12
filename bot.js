@@ -1322,6 +1322,10 @@ client.on("message", function(message) {
              .addField("- Due to scenario BETO-4 the E.R.A.R.S has now logged off all resistance terminals outside of the main base", " ￼ ")
          message.channel.sendEmbed(codered);
          break;
+    case "besthuman":
+         var besthuman = new Discord.RichEmbed()
+             .setImage("https://media.discordapp.net/attachments/730877119508381748/919610952184381510/IMG_8837.gif")
+         message.channel.sendEmbed(besthuman);
   }
 });
 
