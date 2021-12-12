@@ -1326,6 +1326,9 @@ client.on("message", function(message) {
          var besthuman = new Discord.RichEmbed()
              .setImage("https://media.discordapp.net/attachments/730877119508381748/919610952184381510/IMG_8837.gif")
          message.channel.sendEmbed(besthuman);
+    case "besthuman2":
+      message.channel.sendMessage("https://media.discordapp.net/attachments/730877119508381748/919610952184381510/IMG_8837.gif")
+      break;
   }
 });
 
