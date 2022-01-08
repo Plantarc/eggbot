@@ -1333,6 +1333,10 @@ client.on("message", function(message) {
       message.channel.sendMessage("you know who else is non binary.... MY MOM!!!!!!!!!!!")
     break; 
   }
+    case "whathuh77778":
+      message.channel.sendMessage("It was me. I killed them.")
+    break; 
+  }
 });
 
 client.on('ready', function() { 
