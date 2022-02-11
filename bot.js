@@ -1353,7 +1353,7 @@ client.on("message", function(message) {
              .addField("Change Log:", "_ _")
              .addField("- Added more references to drugs", "This was a necessary addition to Egg Bot as drugs do in fact make Egg Bot work more efficiently.")
              .addField("- Added Herobrine", "Removed Herobrine")
-             .addField("- Added a like/dislike feature to a certain member", "We here at the Egg Bot development team felt it was necessary considering how stupid some members can be to add a like/dislike feature. This feature will ensure a safer, more intelligent, community.")
+             .addField("- Added a like/dislike feature to a certain member", "We here at the Egg Bot development team felt it was necessary to add a like/dislike button to certain members due to how stupid some members can be. This feature will ensure a safer, more intelligent, community.")
          message.channel.sendEmbed(eggbotnews);
          break;
     case "whathuh77778":
