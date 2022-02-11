@@ -1653,6 +1653,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.author.id === "298527152268247042") {
+        message.react('⬆️');
+}
+});    
+
+client.on('message', message => {
     if (message.content === "リ𝙹 ⍑ᔑ!¡!¡||") {
     	message.reply('https://cdn.discordapp.com/attachments/585131954001674243/806714126717026364/funny.png');
     }    
