@@ -1339,10 +1339,27 @@ client.on("message", function(message) {
       break;
     case "translation":
       message.channel.sendMessage("you know who else is non binary.... MY MOM!!!!!!!!!!!")
-    break; 
+    break;
+    case "eggbotnews":
+         var eggbotnews = new Discord.RichEmbed()
+             .setTitle("📰**News**📰")
+             .setAuthor("Plantarc", "https://i.imgur.com/LGQD2E5.png")
+             .setColor(0x00AE86)
+             .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
+             .setImage("https://i.imgur.com/9PQaqp3.png")
+             .setTimestamp()
+             .setURL("https://youtu.be/rf_Go9eLaAM")
+             .addField("- Egg Bot Version 1.7 has been released", "_ _")
+             .addField("- After two years the long awaited version 1.7 of Egg Bot has been released to the public.", "_ _")
+             .addField("Change Log:", "_ _")
+             .addField("- Added more references to drugs", "- Added Joe Biden")
+             .addField("- Removed Joe Biden", "- Added Alcohol")
+             .addField("- Added a like/dislike feature to a certain member", "- Removed Herobrine")
+         message.channel.sendEmbed(eggbotnews);
+         break;
     case "whathuh77778":
       message.channel.sendMessage("It was me. I killed them.")
-    break; 
+    break;
   }
 });
 
