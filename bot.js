@@ -587,7 +587,7 @@ client.on("message", function(message) {
 }
     
   if (message.content === "ratio") {                          
-    message.react("⬆⬇️");
+    message.react("⬇️");
 }
 
   if (message.content === "Ratio") {                          
@@ -595,7 +595,7 @@ client.on("message", function(message) {
 }
     
   if (message.content === "Ratio") {                          
-    message.react("⬆⬇️");
+    message.react("⬇️");
 }
 
   if (message.content === "RATIO") {                          
@@ -603,7 +603,7 @@ client.on("message", function(message) {
 }
     
   if (message.content === "RATIO") {                          
-    message.react("⬆⬇️");
+    message.react("⬇️");
 }
     
   if (message.author.id === "470386518746333194") {
