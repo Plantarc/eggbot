@@ -581,6 +581,30 @@ client.on("message", function(message) {
     const drew2654454554464343 = client.emojis.get("506167639383605266");                                 
     message.react("506167639383605266");
 }
+
+  if (message.content === "ratio") {                          
+    message.react("⬆️");
+}
+    
+  if (message.content === "ratio") {                          
+    message.react("⬆⬇️");
+}
+
+  if (message.content === "Ratio") {                          
+    message.react("⬆️");
+}
+    
+  if (message.content === "Ratio") {                          
+    message.react("⬆⬇️");
+}
+
+  if (message.content === "RATIO") {                          
+    message.react("⬆️");
+}
+    
+  if (message.content === "RATIO") {                          
+    message.react("⬆⬇️");
+}
     
   if (message.author.id === "470386518746333194") {
     message.react('⬆️');
