@@ -1347,6 +1347,7 @@ client.on("message", function(message) {
              .setColor(0x00AE86)
              .setFooter("© Eggtown", "https://i.imgur.com/16FyOPh.png")
              .setTimestamp()
+             .setImage("https://i.imgur.com/QvBPSMc.gif")
              .setURL("https://youtu.be/rf_Go9eLaAM")
              .addField("Egg Bot Version 1.7 has been released!", "_ _")
              .addField("- After a long two years, the long awaited version 1.7 of Egg Bot has been released to the public.", "_ _")
