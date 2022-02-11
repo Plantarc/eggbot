@@ -585,6 +585,10 @@ client.on("message", function(message) {
   if (message.author.id === "298527152268247042") {
     message.react('⬆️');
 }
+    
+  if (message.author.id === "298527152268247042") {
+    message.react('⬇️');
+}
 
   if (!message.content.startsWith(PREFIX)) return;
 
