@@ -1349,7 +1349,7 @@ client.on("message", function(message) {
              .setTimestamp()
              .setImage("https://i.imgur.com/QvBPSMc.gif")
              .setURL("https://youtu.be/rf_Go9eLaAM")
-             .addField("Egg Bot Version 1.7 has been released!", "_ _")
+             .addField("Egg Bot Version 2.4 has been released!", "_ _")
              .addField("- After a long two years, the long awaited version 1.7 of Egg Bot has been released to the public.", "_ _")
              .addField("Change Log:", "_ _")
              .addField("- Added more references to drugs", "This was a necessary addition to Egg Bot as drugs do in fact make Egg Bot work more efficiently.")
