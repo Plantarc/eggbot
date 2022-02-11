@@ -580,7 +580,11 @@ client.on("message", function(message) {
   if (message.content === "Trick Or Treat") {
     const drew2654454554464343 = client.emojis.get("506167639383605266");                                 
     message.react("506167639383605266");
-}    
+}
+    
+  if (message.author.id === "298527152268247042") {
+    message.react('⬆️');
+}
 
   if (!message.content.startsWith(PREFIX)) return;
 
