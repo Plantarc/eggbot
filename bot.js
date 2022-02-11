@@ -1650,13 +1650,7 @@ client.on('message', message => {
     if (message.content === "<:whenimposterisSUS:802988696521015306>") {
     	message.reply('https://cdn.discordapp.com/attachments/713077166929215629/804146928073703424/when_the_imposter_is_thick.mp4');
     }    
-});
-
-client.on('message', message => {
-    if (message.author.id === "298527152268247042") {
-        message.react('⬆️');
-}
-});    
+});   
 
 client.on('message', message => {
     if (message.content === "リ𝙹 ⍑ᔑ!¡!¡||") {
