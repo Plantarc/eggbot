@@ -582,11 +582,11 @@ client.on("message", function(message) {
     message.react("506167639383605266");
 }
     
-  if (message.author.id === "303044838343966720") {
+  if (message.author.id === "430491771772862465") {
     message.react('⬆️');
 }
     
-  if (message.author.id === "303044838343966720") {
+  if (message.author.id === "430491771772862465") {
     message.react('⬇️');
 }
 
