@@ -1352,14 +1352,17 @@ client.on("message", function(message) {
              .addField("- Egg Bot Version 1.7 has been released", "_ _")
              .addField("- After two years the long awaited version 1.7 of Egg Bot has been released to the public.", "_ _")
              .addField("Change Log:", "_ _")
-             .addField("- Added more references to drugs", "- Added Joe Biden")
-             .addField("- Removed Joe Biden", "- Added Alcohol")
-             .addField("- Added a like/dislike feature to a certain member", "- Removed Herobrine")
+             .addField("- Added more references to drugs", "- This was a necessary addition to Egg Bot as drugs do in fact make Egg Bot work more efficiently.")
+             .addField("- Added Herobrine", "- Removed Herobrine")
+             .addField("- Added a like/dislike feature to a certain member", "- We at the Egg Bot development team felt it was necessary considering how stupid some members can be to add a like/dislike feature. This feature will ensure a safer, more intelligent, community.")
          message.channel.sendEmbed(eggbotnews);
          break;
     case "whathuh77778":
       message.channel.sendMessage("It was me. I killed them.")
     break;
+    case "tommorow777":
+      message.channel.sendMessage("Tommorrow is the day.")
+    break;          
   }
 });
 
