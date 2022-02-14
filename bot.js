@@ -5,7 +5,6 @@ const PREFIX = "!";
 var fortunes = [
     "Yes",
     "No",
-    "NOU",
     "Maybe",
     "No you egg thats a horrible idea why did you even ask that in the first place eggling",
     "YES THATS THE BEST IDEA I HAVE HEARD IN MY LIFE",
