@@ -1385,7 +1385,10 @@ client.on("message", function(message) {
     break;
     case "tomorrow777":
       message.channel.sendMessage("Tomorrow is the day.")
-    break;          
+    break;
+    case "mastacheef11":
+      message.channel.sendMessage("Masta Cheef.")
+    break;
   }
 });
 
