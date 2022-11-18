@@ -612,6 +612,10 @@ client.on("message", function(message) {
   if (message.author.id === "470386518746333194") {
     message.react('⬇️');
 }
+    
+  if (message.author.id === "470386518746333194") {
+    message.react('🤓');
+}
 
   if (!message.content.startsWith(PREFIX)) return;
 
