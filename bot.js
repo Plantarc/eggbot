@@ -834,12 +834,12 @@ client.on("message", function(message) {
               .setImage("http://c8.alamy.com/comp/CWBJMN/copy-of-typical-catholic-image-of-jesus-christ-from-slovakia-by-painter-CWBJMN.jpg")
           message.channel.sendEmbed(jesus);
           break;
-    case "noanime":
+    case "123noanime":
       message.channel.sendMessage("You are an intelligent person, you cleary watch Rick and Morty and don't watch anime.")
       break;
     case "okegger":
          var okegger = new Discord.RichEmbed()
-            .setImage("https://cdn.discordapp.com/attachments/386610342077267968/431199869336682516/okegger.png")
+            .setImage("https://cdn.discordapp.com/attachments/585131954001674243/1056422417553162270/okegger.png")
          message.channel.sendEmbed(okegger);
          break;
     case "rulesegger":
